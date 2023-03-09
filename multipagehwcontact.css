@@ -1,0 +1,116 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5f3f3;
+    display: flex;
+    flex-direction: column;
+    /* background-image: linear-gradient(#d1cece,rgb(236, 231, 231)); */
+    /* background-repeat: no-repeat; */
+    /* justify-content:space-between; */
+    /* padding: 0 50px; */
+}
+.imglogo{
+    cursor: pointer;
+    /* height: 15px; */
+    width: 15px;
+    
+}
+.header{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 15px;
+    gap: 800px;
+    /* border: 2px solid yellow; */
+}
+a li:hover{
+    /* text-decoration: underline; */
+    font-weight: bolder;
+}
+a{
+ text-decoration: none;
+ color: black;
+}
+.navlist ul{
+      display: flex;
+      align-items: center;
+    gap: 25px;
+      /* border: 2px solid red; */
+}
+.navlist ul li{
+    list-style: none;
+    font-weight: 800;
+    font-size: 20px;
+    cursor: pointer;
+  
+}
+.sectioncards{
+    height: 350px;
+    width: 250px;
+    border: 2px solid rgb(0, 0, 0);
+    /* display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */ 
+    margin:auto;
+    margin-top: 50px;
+    padding: 8px;
+    border-radius: 8px;
+    /* box-shadow: -150px -150px black; */
+    /* box-shadow: -1px -1px #181818; */
+    /* box-shadow: 2px 2px hsl(90, 5%, 59%); */
+}
+/* .sectioncards .form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} */
+.sectioncards form .name{
+    display: flex;
+    flex-direction: column;
+    /* flex-direction: initial; */
+    /* flex-direction: column-reverse; */
+
+}
+.meassage placeholder{
+    margin: 0px;
+}
+.name,.email,.meassage{
+    padding:10px 0px 0px 0px;
+}
+.sectioncards form .headercontact h2{
+font-weight: 900;
+padding-left: 45px;
+text-shadow: 1px 1px black;
+
+/* color: red; */
+/* border: 2px solid black; */
+}
+.submit{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+textarea{
+    overflow: auto;
+    border-radius: 8px;
+    border-color: #d1cece;
+    
+}
+.submit input{
+    /* padding:0px 25px 25px 0px; */
+    /* flex-direction: column; */
+    color: white;
+    background-color: #11b811;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 8px 90px;
+    border-radius: 10px;
+}
+
